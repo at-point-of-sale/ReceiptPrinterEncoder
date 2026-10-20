@@ -35,6 +35,8 @@ export type PrinterModel =
 	| 'sunmi-p3kh'
 	| 'sunmi-p3mix'
 	| 'sunmi'
+	| 'woosim-porti-s3040'
+	| 'woosim-wsp-r240'
 	| 'xprinter-xp-n160ii'
 	| 'xprinter-xp-t80q'
 	| 'youku-58t';
@@ -53,6 +55,8 @@ export type CodepageMappingName =
 	| 'pos-8360'
 	| 'star'
 	| 'sunmi'
+	| 'woosim'
+	| 'woosim/legacy'
 	| 'xprinter'
 	| 'youku';
 

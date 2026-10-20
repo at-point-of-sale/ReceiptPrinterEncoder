@@ -1,0 +1,39 @@
+{
+    "vendor": "Woosim",
+    "model": "WSP-R240",
+
+    "media": {
+        "dpi": 203,
+        "width": 58
+    },
+
+    "capabilities": {
+        "language": "esc-pos",
+        "codepages": "woosim",
+        "fonts": {
+            "A": {
+                "size": "9x24",
+                "columns": 42
+            }
+        },
+
+        "barcodes": {
+            "supported": true,
+            "symbologies": [
+                "upca", "ean13", "ean8", "code39", "itf", "codabar", "code93",
+                "code128"
+            ]
+        },
+        "qrcode": {
+            "supported": false,
+            "models": []
+        },
+        "pdf417": {
+            "supported": false
+        },
+
+        "images": {
+            "mode": "column"
+        }
+    }
+}

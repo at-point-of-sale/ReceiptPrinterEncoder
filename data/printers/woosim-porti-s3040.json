@@ -1,0 +1,37 @@
+{
+    "vendor": "Woosim",
+    "model": "Porti-S30/40",
+
+    "media": {
+        "width": 58
+    },
+
+    "capabilities": {
+        "language": "esc-pos",
+        "codepages": "woosim/legacy",
+        "fonts": {
+            "A": {
+                "size": "9x24",
+                "columns": 42
+            }
+        },
+
+        "barcodes": {
+            "supported": true,
+            "symbologies": [
+                "upca", "ean13", "ean8", "code39", "itf", "code93"
+            ]
+        },
+        "qrcode": {
+            "supported": false,
+            "models": []
+        },
+        "pdf417": {
+            "supported": false
+        },
+
+        "images": {
+            "mode": "column"
+        }
+    }
+}
